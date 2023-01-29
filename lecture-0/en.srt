@@ -1,0 +1,319 @@
+1
+00:01:17,600 --> 00:01:20,130
+Alright, this is CS50
+
+2
+00:01:20,130 --> 00:01:23,970
+Harvard University's Introduction to the intellectual enterprises of computer science
+
+4
+00:01:23,970 --> 00:01:25,300
+and the arts of programming
+
+5
+00:01:25,300 --> 00:01:29,800
+Back here on campus and beautiful Sanders Theatre for the first time in quite a while
+
+7
+00:01:29,900 --> 00:01:32,330
+So, welcome to the class
+
+8
+00:01:32,370 --> 00:01:34,530
+My name is David Malan, again
+
+9
+00:01:43,400 --> 00:01:44,600
+So my name is David Malan
+
+10
+00:01:44,600 --> 00:01:47,070
+and I took this class myself some time ago
+
+11
+00:01:47,070 --> 00:01:48,470
+but almost did it
+
+12
+00:01:48,570 --> 00:01:49,870
+It was sophomore fall
+
+13
+00:01:49,870 --> 00:01:51,470
+and I was sitting in on the class
+
+14
+00:01:51,470 --> 00:01:52,700
+and I was a little curious
+
+15
+00:01:53,270 --> 00:01:56,000
+didn't really feel like the field for me
+
+16
+00:01:56,000 --> 00:01:57,470
+I was definitely a computer person
+
+17
+00:01:57,470 --> 00:01:59,500
+but computer science felt like something altogether
+
+18
+00:01:59,670 --> 00:02:01,200
+And I only got up the nerve to take the class ultimately
+
+19
+00:02:01,200 --> 00:02:03,300
+because the professor at the time
+
+20
+00:02:03,300 --> 00:02:04,270
+Brian Kernighan
+
+21
+00:02:04,330 --> 00:02:06,930
+allowed me to take the class pass-fail, initially
+
+23
+00:02:06,930 --> 00:02:08,870
+And that is what made all the difference
+
+24
+00:02:08,900 --> 00:02:10,199
+I quickly found that
+
+25
+00:02:10,199 --> 00:02:14,130
+computer science is not just about programming and working in isolation on your computer
+
+27
+00:02:14,130 --> 00:02:16,600
+it's really about problem solving, more generally
+
+28
+00:02:16,730 --> 00:02:20,600
+And there was something about homework, frankly, that was actually fun
+
+30
+00:02:20,600 --> 00:02:22,770
+for perhaps the first time in what 19 years
+
+31
+00:02:22,770 --> 00:02:27,500
+and there was something about this ability that I discovered along with all of my classmates
+
+34
+00:02:27,500 --> 00:02:31,670
+to actually create something and bring a computer to life to solve a problem
+
+36
+00:02:31,870 --> 00:02:34,470
+and sort of bring to bear something that I'd been using every day
+
+38
+00:02:34,470 --> 00:02:35,800
+but didn't really know how to harness
+
+39
+00:02:35,930 --> 00:02:37,570
+that's been gratifying ever since
+
+40
+00:02:37,600 --> 00:02:42,300
+and definitely challenging and frustrating like to this day, all these years later
+
+42
+00:02:42,330 --> 00:02:43,800
+you're gonna run up against mistakes
+
+43
+00:02:43,800 --> 00:02:45,370
+otherwise known as bugs in programming
+
+44
+00:02:45,370 --> 00:02:46,470
+that just drive you nuts
+
+45
+00:02:46,470 --> 00:02:47,870
+and you feel like you've hit a wall
+
+46
+00:02:48,100 --> 00:02:51,100
+but the trick really is to give it enough time, to take a step back
+
+48
+00:02:51,100 --> 00:02:52,470
+take a break when you need to
+
+49
+00:02:52,500 --> 00:02:54,100
+And there's nothing better, I dare say
+
+50
+00:02:54,100 --> 00:02:57,970
+than that sense of gratification and pride really when you get something to work
+
+52
+00:02:57,970 --> 00:03:00,870
+and in a class like this present ultimately a terms end
+
+53
+00:03:00,970 --> 00:03:03,500
+something like your very own final project
+
+54
+00:03:03,600 --> 00:03:06,800
+Now this isn't to say that I took to it 100% perfectly
+
+55
+00:03:06,800 --> 00:03:09,300
+In fact, just this, this past week
+
+57
+00:03:09,300 --> 00:03:11,600
+I looked in my old CS50 binder
+
+58
+00:03:11,600 --> 00:03:13,870
+which I still have from some 25 years ago
+
+59
+00:03:13,900 --> 00:03:19,300
+and took a photo of what was apparently the very first program that I wrote and submitted
+
+62
+00:03:19,370 --> 00:03:21,570
+and quickly received -2 points on
+
+63
+00:03:21,770 --> 00:03:24,500
+But this is a program that we'll soon see in the coming days
+
+65
+00:03:24,500 --> 00:03:28,400
+that does something quite simply, like print "Hello, CS50!"
+
+67
+00:03:28,570 --> 00:03:29,900
+in this case, to the screen
+
+68
+00:03:29,900 --> 00:03:32,370
+And to be fair, I technically hadn't really followed the directions
+
+70
+00:03:32,370 --> 00:03:33,870
+which is why I lost those couple of points
+
+71
+00:03:33,870 --> 00:03:35,100
+But if you just look at this
+
+72
+00:03:35,370 --> 00:03:37,370
+especially if you've never programmed before
+
+73
+00:03:37,370 --> 00:03:39,170
+you might have heard about programming languages
+
+74
+00:03:39,170 --> 00:03:40,900
+but you've never typed something like this out
+
+75
+00:03:40,970 --> 00:03:42,900
+undoubtedly it's going to look cryptic
+
+76
+00:03:43,100 --> 00:03:45,770
+But unlike human languages, frankly,
+
+77
+00:03:45,870 --> 00:03:50,470
+which were a lot more sophisticated, a lot more vocabulary, a lot more grammatical rules,
+
+79
+00:03:49,900 --> 00:03:53,900
+programming, once you start to wrap your mind around what it is and how it works
+
+81
+00:03:53,900 --> 00:03:55,330
+and what these various languages are,
+
+82
+00:03:55,330 --> 00:04:01,200
+it's so easy, you'll see after a few months of a class like this, to start teaching yourself subsequently other languages,
+
+86
+00:04:01,200 --> 00:04:03,930
+as they may come in the coming years as well.
+
+87
+00:04:04,300 --> 00:04:07,400
+So, what ultimately matters in this particular course
+
+88
+00:04:07,400 --> 00:04:10,130
+is not so much where you end up relative to your classmates,
+
+90
+00:04:10,170 --> 00:04:13,000
+but where you end up relative to yourself when you began.
+
+91
+00:04:13,000 --> 00:04:14,600
+And indeed you'll begin today.
+
+92
+00:04:14,600 --> 00:04:18,200
+And the only experience that matters ultimately in this class is your own.
+
+94
+00:04:18,300 --> 00:04:20,329
+And so consider where you are today,
+
+95
+00:04:20,470 --> 00:04:24,200
+consider perhaps just how cryptic something like that looked a few seconds ago
+
+98
+00:04:24,300 --> 00:04:30,100
+and take comfort in knowing, just some months from now, all of that will be within your own grasp.
+
+101
+00:04:30,100 --> 00:04:31,370
+And if you're thinking that,
+
+102
+00:04:31,370 --> 00:04:34,070
+okay, surely, the person in front of me, to the left, to the right, behind me
+
+104
+00:04:34,070 --> 00:04:35,000
+knows more than me
+
+105
+00:04:35,200 --> 00:04:36,730
+that's statistically not the case.
+
+106
+00:04:36,930 --> 00:04:40,770
+2/3 of CS50 students have never taken a CS course before,
+
+107
+00:04:40,770 --> 00:04:45,600
+which is to say you're in very good company throughout this whole term.
+
+109
+00:04:46,270 --> 00:04:48,170
+So, then what is computer science?
+
+110
+00:04:48,170 --> 00:04:49,770
+I claim that it's problem solving
+
+111
+00:04:49,770 --> 00:04:54,600
+and the upside of that is that problem solving is something we sort of do all the time 
