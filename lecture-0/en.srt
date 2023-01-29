@@ -319,16 +319,12 @@ I claim that it's problem solving
 and the upside of that is that problem solving is something we sort of do all the time 
 
 113
-00:04:54,700 --> 00:04:56,670
-But computer science class
+00:04:54,700 --> 00:04:57,100
+But a computer science class, learning to program,
 
 114
-00:04:56,670 --> 00:04:57,670
-learning to program I think
-
-115
-00:04:57,670 --> 00:04:58,800
-kind of cleans up your thoughts
+00:04:57,100 --> 00:04:58,800
+I think kind of cleans up your thoughts
 
 116
 00:04:58,800 --> 00:05:01,270
@@ -348,31 +344,23 @@ the computer is not going to do what you want
 
 120
 00:05:06,000 --> 00:05:09,000
-and unless you are correct and precise and methodical
+unless you are correct and precise and methodical
 
 121
 00:05:09,100 --> 00:05:10,000
-and so as such
+And so, as such,
 
 122
-00:05:10,000 --> 00:05:10,400
-there's these sort of 
-
-123
-00:05:10,400 --> 00:05:12,270
-fringe benefits of just learning to think
+00:05:10,000 --> 00:05:12,270
+there's these sort of fringe benefits of just learning to think
 
 124
-00:05:12,270 --> 00:05:13,170
-like a computer scientist
-
-125
-00:05:13,170 --> 00:05:14,100
-in the programmer
+00:05:12,270 --> 00:05:14,100
+like a computer scientist and a programmer.
 
 126
 00:05:14,300 --> 00:05:16,970
-and it doesn't take all that much to start doing so
+And it doesn't take all that much to start doing so.
 
 127
 00:05:17,000 --> 00:05:20,600
@@ -800,7 +788,7 @@ I want to actually take into account the pattern of these things being on and of
 
 257
 00:09:32,070 --> 00:09:34,400
-so if this was "1" a moment ago
+So if this was "1" a moment ago
 
 258
 00:09:34,670 --> 00:09:38,070
