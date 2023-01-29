@@ -317,3 +317,491 @@ I claim that it's problem solving
 111
 00:04:49,770 --> 00:04:54,600
 and the upside of that is that problem solving is something we sort of do all the time 
+
+113
+00:04:54,700 --> 00:04:56,670
+But computer science class
+
+114
+00:04:56,670 --> 00:04:57,670
+learning to program I think
+
+115
+00:04:57,670 --> 00:04:58,800
+kind of cleans up your thoughts
+
+116
+00:04:58,800 --> 00:05:01,270
+It helps you learn how to think more methodically
+
+117
+00:05:01,400 --> 00:05:03,930
+more carefully, more correctly, more precisely
+
+118
+00:05:03,930 --> 00:05:04,500
+Because honestly
+
+119
+00:05:04,500 --> 00:05:06,000
+the computer is not going to do what you want
+
+120
+00:05:06,000 --> 00:05:09,000
+and unless you are correct and precise and methodical
+
+121
+00:05:09,100 --> 00:05:10,000
+and so as such
+
+122
+00:05:10,000 --> 00:05:10,400
+there's these sort of 
+
+123
+00:05:10,400 --> 00:05:12,270
+fringe benefits of just learning to think
+
+124
+00:05:12,270 --> 00:05:13,170
+like a computer scientist
+
+125
+00:05:13,170 --> 00:05:14,100
+in the programmer
+
+126
+00:05:14,300 --> 00:05:16,970
+and it doesn't take all that much to start doing so
+
+127
+00:05:17,000 --> 00:05:20,600
+This for instance is perhaps the simplest picture of computer science
+
+129
+00:05:20,600 --> 00:05:22,530
+sure, but really problem solving in general
+
+130
+00:05:22,530 --> 00:05:24,470
+problems are all about taking input
+
+131
+00:05:24,470 --> 00:05:25,870
+like the problem you want to solve
+
+132
+00:05:25,900 --> 00:05:28,470
+you want to get the solution, a.k.a. output
+
+133
+00:05:28,470 --> 00:05:30,800
+and so something interesting gotta to be happening in here
+
+134
+00:05:30,800 --> 00:05:31,870
+in here
+
+135
+00:05:31,900 --> 00:05:34,300
+when you're trying to get from those inputs to output
+
+136
+00:05:34,730 --> 00:05:37,170
+Now in the world of computers specifically
+
+137
+00:05:37,200 --> 00:05:38,300
+we need to decide in advance
+
+138
+00:05:38,300 --> 00:05:41,100
+how we represent these inputs and outputs
+
+139
+00:05:41,100 --> 00:05:45,330
+we all just need to decide whether it's Mac or PCs or phones or something else
+
+141
+00:05:45,330 --> 00:05:46,800
+that we're all going to speak some common language
+
+142
+00:05:46,900 --> 00:05:50,130
+irrespective of our human languages as well
+
+144
+00:05:50,200 --> 00:05:51,870
+And you may very well know
+
+145
+00:05:52,270 --> 00:05:54,970
+that computers tend to speak only what language
+
+146
+00:05:55,000 --> 00:05:55,970
+so to speak
+
+147
+00:05:58,100 --> 00:05:58,730
+assembly one
+
+148
+00:05:58,730 --> 00:06:01,400
+but binary too might be your goal too
+
+149
+00:06:01,400 --> 00:06:04,070
+In "binary", "bi" implying "two" means that the world of computers
+
+150
+00:06:04,170 --> 00:06:06,170
+has just 2 digits at its disposal, 0 and 1.
+
+151
+00:06:06,300 --> 00:06:10,570
+And indeed we humans have many more than that
+
+152
+00:06:10,570 --> 00:06:12,070
+certainly not just zeros and ones alone
+
+153
+00:06:12,070 --> 00:06:14,470
+but a computer indeed only has zeros and ones
+
+154
+00:06:14,470 --> 00:06:15,500
+And yet somehow
+
+155
+00:06:15,700 --> 00:06:16,700
+they can do so much
+
+156
+00:06:16,700 --> 00:06:19,100
+they can crunch numbers and excels and text messages
+
+157
+00:06:19,100 --> 00:06:20,170
+create images
+
+158
+00:06:20,330 --> 00:06:22,270
+and artwork and movies and more
+
+159
+00:06:22,500 --> 00:06:26,200
+And so how do you get from something as simple as a few zeros a few ones
+
+161
+00:06:26,200 --> 00:06:30,330
+to all of the stuff that we're doing today in our pockets and laptops and desktops
+
+163
+00:06:30,470 --> 00:06:32,970
+Well, it turns out that we can start quite simply
+
+164
+00:06:33,000 --> 00:06:36,500
+if a computer were to want to do something as simple as count
+
+166
+00:06:36,770 --> 00:06:39,130
+what could it do? While in our human world
+
+167
+00:06:39,130 --> 00:06:42,500
+we might count doing this like: "1 2 3 4 5"
+
+168
+00:06:42,530 --> 00:06:44,330
+using so-called unary notation
+
+169
+00:06:44,330 --> 00:06:45,800
+literally the digits on your fingers
+
+170
+00:06:45,800 --> 00:06:47,900
+were one figure represents one person in the room
+
+171
+00:06:47,900 --> 00:06:49,870
+if I'm, for instance, taking attendance
+
+172
+00:06:49,970 --> 00:06:52,200
+now we humans would typically actually count
+
+173
+00:06:52,470 --> 00:06:53,970
+1 2 3 4 5 6
+
+174
+00:06:53,970 --> 00:06:56,870
+and we'd go past just those 5 digits and count much higher
+
+176
+00:06:56,870 --> 00:06:58,400
+using zeros through nines
+
+177
+00:06:58,400 --> 00:07:01,070
+but computers somehow only have these zeros and ones
+
+178
+00:07:01,330 --> 00:07:04,600
+so if a computer only somehow speaks binary zeros and ones
+
+180
+00:07:04,600 --> 00:07:07,900
+how does it even count past the number one
+
+182
+00:07:07,970 --> 00:07:11,200
+Well here are 3 zeros, of course,
+
+183
+00:07:11,470 --> 00:07:13,570
+and if you translate this number in binary "000"
+
+184
+00:07:13,770 --> 00:07:16,130
+to a more familiar number in decimal
+
+185
+00:07:16,200 --> 00:07:17,570
+we would just call this 0
+
+186
+00:07:17,670 --> 00:07:18,470
+enough said
+
+187
+00:07:18,570 --> 00:07:21,200
+if we were to represent with a computer the number 1
+
+188
+00:07:21,200 --> 00:07:22,770
+it would actually be 001
+
+189
+00:07:23,130 --> 00:07:27,370
+which not surprisingly is exactly the same as we might do in our human world
+
+192
+00:07:27,370 --> 00:07:30,700
+but we might not bother writing out the 2 zeros at the beginning
+
+194
+00:07:31,100 --> 00:07:32,270
+but a computer now
+
+195
+00:07:32,270 --> 00:07:33,500
+if it wants to count as high as 2
+
+196
+00:07:33,500 --> 00:07:35,070
+it doesn't have the digit 2
+
+197
+00:07:35,070 --> 00:07:37,870
+and so it has to use a different pattern of zeros and ones
+
+199
+00:07:37,870 --> 00:07:40,000
+and that happens to be "010"
+
+200
+00:07:40,130 --> 00:07:42,170
+so this is not "10" with a "0" in front of it
+
+201
+00:07:42,170 --> 00:07:44,570
+it's indeed "010" in the context of binary
+
+202
+00:07:44,570 --> 00:07:46,470
+and if we want to count higher than 2
+
+203
+00:07:46,900 --> 00:07:50,870
+we're going to have to tweak these zeros and ones further to get 3
+
+205
+00:07:50,970 --> 00:07:55,170
+and then if we want 4 or 5 or 6 or 7
+
+206
+00:07:55,170 --> 00:07:58,370
+we're just kind of toggling these zeros and ones
+
+207
+00:07:58,400 --> 00:08:00,730
+a.k.a. bits, for binary digits
+
+208
+00:08:00,870 --> 00:08:02,930
+that represent via these different patterns
+
+209
+00:08:02,930 --> 00:08:05,730
+different numbers that you and I as humans know, of course, as
+
+210
+00:08:05,770 --> 00:08:07,270
+the so called decimal system
+
+211
+00:08:07,270 --> 00:08:10,400
+0 through 9 deck implying 10
+
+212
+00:08:10,400 --> 00:08:11,770
+10 digits, those zeros through 9
+
+213
+00:08:12,000 --> 00:08:13,970
+so why that particular pattern
+
+214
+00:08:14,170 --> 00:08:16,130
+and why these particular zeros and ones
+
+215
+00:08:16,130 --> 00:08:19,330
+well, turns out that representing one thing or the other
+
+217
+00:08:19,330 --> 00:08:21,770
+is just really simple for a computer
+
+218
+00:08:21,770 --> 00:08:22,200
+Why?
+
+219
+00:08:22,200 --> 00:08:24,200
+At the end of the day, they're powered by electricity
+
+220
+00:08:24,200 --> 00:08:29,170
+and it's a really simple thing to just either store some electricity or don't store some electricity
+
+223
+00:08:29,170 --> 00:08:32,270
+like that's as simple as the words can get, "on" or "off"
+
+224
+00:08:32,470 --> 00:08:34,400
+"1" or "0", so to speak
+
+225
+00:08:34,500 --> 00:08:38,900
+So, in fact, inside of a computer, a phone, anything these days that's electronic pretty much
+
+228
+00:08:39,000 --> 00:08:40,570
+is some number of switches
+
+229
+00:08:40,730 --> 00:08:42,870
+otherwise known as transistors
+
+230
+00:08:42,870 --> 00:08:46,270
+And they're tiny. You've got thousands, millions of them in your Mac or PC, your phone these days
+
+233
+00:08:46,270 --> 00:08:49,070
+And these are just tiny little switches that can get turned on and off
+
+235
+00:08:49,270 --> 00:08:51,800
+and by turning those things on and off in patterns
+
+236
+00:08:51,800 --> 00:08:54,530
+a computer can count from 0 on up to 7
+
+237
+00:08:54,670 --> 00:08:56,130
+and even higher than that
+
+238
+00:08:56,130 --> 00:08:58,070
+And so these switches really you can think of being as
+
+239
+00:08:58,170 --> 00:08:59,170
+switches like this
+
+240
+00:08:59,270 --> 00:09:01,400
+let me just borrow one of our little stage lights here
+
+241
+00:09:01,400 --> 00:09:02,370
+here's a light bulb
+
+242
+00:09:02,400 --> 00:09:03,600
+it's currently off
+
+243
+00:09:03,730 --> 00:09:06,070
+and so I could just think of this as representing
+
+244
+00:09:06,070 --> 00:09:09,370
+in my laptop, that a transistor or a switch representing "0"
+
+245
+00:09:09,570 --> 00:09:12,100
+but if I allow some electricity to flow
+
+246
+00:09:12,200 --> 00:09:14,400
+now I in fact have a one
+
+247
+00:09:14,600 --> 00:09:16,170
+Well how do I count higher than one
+
+248
+00:09:16,370 --> 00:09:17,600
+of course we need another light bulb
+
+249
+00:09:17,600 --> 00:09:19,700
+so let me grab another one here
+
+250
+00:09:19,900 --> 00:09:22,570
+and if I put it in that same kind of pattern
+
+251
+00:09:22,700 --> 00:09:24,700
+I don't want to just do this
+
+252
+00:09:24,900 --> 00:09:27,170
+that's sort of the old finger counting way of unary
+
+253
+00:09:27,170 --> 00:09:28,530
+just one, two
+
+254
+00:09:28,700 --> 00:09:31,970
+I want to actually take into account the pattern of these things being on and off
+
+257
+00:09:32,070 --> 00:09:34,400
+so if this was "1" a moment ago
+
+258
+00:09:34,670 --> 00:09:38,070
+what I think I did earlier was I turned it off
